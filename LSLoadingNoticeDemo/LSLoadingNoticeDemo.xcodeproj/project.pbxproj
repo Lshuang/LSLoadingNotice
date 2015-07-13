@@ -13,6 +13,7 @@
 		C40A7DDF1B5398F100441C4B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C40A7DDE1B5398F100441C4B /* Images.xcassets */; };
 		C40A7DE21B5398F100441C4B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C40A7DE01B5398F100441C4B /* LaunchScreen.xib */; };
 		C40A7DEE1B5398F100441C4B /* LSLoadingNoticeDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40A7DED1B5398F100441C4B /* LSLoadingNoticeDemoTests.swift */; };
+		C40A7DF91B53997200441C4B /* LSLoadingNotice.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40A7DF81B53997200441C4B /* LSLoadingNotice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		C40A7DE71B5398F100441C4B /* LSLoadingNoticeDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LSLoadingNoticeDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C40A7DEC1B5398F100441C4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C40A7DED1B5398F100441C4B /* LSLoadingNoticeDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSLoadingNoticeDemoTests.swift; sourceTree = "<group>"; };
+		C40A7DF81B53997200441C4B /* LSLoadingNotice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSLoadingNotice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		C40A7DD41B5398F100441C4B /* LSLoadingNoticeDemo */ = {
 			isa = PBXGroup;
 			children = (
+				C40A7DF71B53995B00441C4B /* LSLoadingNotice */,
 				C40A7DD71B5398F100441C4B /* AppDelegate.swift */,
 				C40A7DD91B5398F100441C4B /* ViewController.swift */,
 				C40A7DDB1B5398F100441C4B /* Main.storyboard */,
@@ -110,6 +113,15 @@
 				C40A7DEC1B5398F100441C4B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C40A7DF71B53995B00441C4B /* LSLoadingNotice */ = {
+			isa = PBXGroup;
+			children = (
+				C40A7DF81B53997200441C4B /* LSLoadingNotice.swift */,
+			);
+			name = LSLoadingNotice;
+			path = ../LSLoadingNotice;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,6 +226,7 @@
 			files = (
 				C40A7DDA1B5398F100441C4B /* ViewController.swift in Sources */,
 				C40A7DD81B5398F100441C4B /* AppDelegate.swift in Sources */,
+				C40A7DF91B53997200441C4B /* LSLoadingNotice.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
